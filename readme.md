@@ -1,3 +1,3 @@
-A simple notebook to build a pretty table which displays stats of mile splits from a GPX file using polars, pyproj, folium and of course great tables.
+I'm not the fastest runner out there, but I do like to run and I like to play with data.  I decided to use great tables to display the splits of a run.  I read the data from the GPX file into a polars dataframe, used pyproj to calculate the distance between each GPS point in recorded in the GPX file, then computed stats on the splits of the run per mile.  I plotted the path of the run and mile markers/start/end of the run on a foluim map, and included it in the footer of the table to give an overview of the run.  Great tables nano plots were used to show the elevation profile along the run.  Other than my name and the background map, all the data on the table came directly from the GPX file
 
 ![a great table](great_gpx.png "Great GPX")
